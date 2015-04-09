@@ -14,6 +14,16 @@ return [
         'gii' => 'yii\gii\Module',
         // ...
     ],
+    'controllerMap' => [
+        // declares "account" controller using a class name
+        'user' => 'app\controllers\UserController',
+
+        // declares "article" controller using a configuration array
+        'account' => [
+            'class' => 'app\controllers\UserController',
+            'enableCsrfValidation' => false,
+        ],
+    ],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'user' => [
