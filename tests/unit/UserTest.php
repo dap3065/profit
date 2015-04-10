@@ -39,6 +39,37 @@ class UserTest extends \Codeception\TestCase\Test
 
     public function testEmail()
     {
+        $user = new User();
+
+        $user->email = null;
+        $this->assertFalse($user->validate(['email']));
+
+        $user->email = 'toolooooongnaaaaaaameeee';
+        $this->assertFalse($user->validate(['email']));
+
+        $user->email = 'dave%009$#rt';
+        $this->assertFalse($user->validate(['email']));     
+
+        $user->email = 'dap3065@yahoo.com';
+        $this->assertTrue($user->validate(['email']));     
+    }
+
+    public function testPassword() {
+        $user = new User();
+
+        $user->email = 'dap3065@yahoo.com';
+	$user->username = 'dap3065';
+	$user->setPassword('dap3065Password');
+	$user->status = 10;
+        $this->assertTrue($user->validate());     
+
+	$password = 'wrong';
+	$this->assertFalse($user->validatePassword($password));
+	$user->save();
+	
+	$password = 'dap3065Password';
+	$this->assertTrue($user->validatePassword($password));
+	$user->delete(); 
     }
 
 }
