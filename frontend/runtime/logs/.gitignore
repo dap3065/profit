@@ -22,7 +22,7 @@
  
 # Logs and databases #
 ######################
-frontend/runtime/logs/app.log
+app.log
 *.log
 *.sql
 *.sqlite

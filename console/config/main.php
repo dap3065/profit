@@ -10,7 +10,18 @@ return [
     'id' => 'app-console',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+//    'controllerNamespace' => 'app\commands',
     'controllerNamespace' => 'console\controllers',
+    'controllerMap' => [
+        // declares "account" controller using a class name
+        'rbac' => 'console\controllers\RbacController',
+	'mail' => 'console\controllers\MailController',
+        // declares "article" controller using a configuration array
+//        'account' => [
+  //          'class' => 'app\controllers\UserController',
+    //        'enableCsrfValidation' => false,
+      //  ],
+    ],
     'components' => [
         'log' => [
             'targets' => [
@@ -19,6 +30,9 @@ return [
                     'levels' => ['error', 'warning'],
                 ],
             ],
+        ],
+      'authManager' => [
+            'class' => 'yii\rbac\DbManager',
         ],
     ],
     'params' => $params,

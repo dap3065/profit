@@ -3,7 +3,9 @@ include:
   - codeception/console
   - codeception/backend
   - codeception/frontend
-
+  - unit
+  - acceptance
+  - functional
 paths:
   log: codeception/_output
 

@@ -3,6 +3,7 @@ namespace common\models;
 
 use Yii;
 use yii\base\NotSupportedException;
+use yii\base\ErrorException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
@@ -50,6 +51,11 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
+	    ['username', 'validateUsername', 'message'=>'username failed'], 
+//	    ['username', 'default', 'value'=>''],
+	    ['username', 'required'],
+//	    ['password', 'validatePassword'],
+//	    ['password', 'required'],
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
         ];
@@ -184,5 +190,31 @@ class User extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
+    }
+
+    /**
+     * Finds out if username is valid
+     *
+     * @param string $username
+     * @return boolean
+     */
+    public function validateUsername($attribute, $params) 
+    {
+	$username = $this->$attribute;
+	if (empty($username)) {
+		$this->addError($attribute, 'The username can not be empty.');
+	}
+
+	if (strlen($username) > 10) {
+		$this->addError($attribute, 'The username is too long.');
+	}
+
+	$invalids = array("\@", "\!", "\$", "\%", '"', "'", "*","^");
+	foreach ($invalids as $i) {
+	  if (stripos($username, $i) !== false)  {
+		$this->addError($attribute, 'The username can not contain: ' . $i);
+	  }
+	}
+	return true;
     }
 }
