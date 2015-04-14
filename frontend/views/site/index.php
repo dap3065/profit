@@ -42,8 +42,9 @@ echo Carousel::widget([
 ?>
 
         <p class="lead">Professional development at your fingertips.</p>
-
-        <p><a class="btn btn-lg btn-success" href="<?php ?>">Click to Get Started!</a></p>
+<p>
+<?php echo Html::a("Click To Get Started!", "/site/contact", array('class'=>'btn btn-lg btn-success'))?>
+</p>
     </div>
 
     <div class="body-content">

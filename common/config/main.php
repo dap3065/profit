@@ -11,5 +11,10 @@ return [
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
         ],
+	'urlManager' => [
+    		'enablePrettyUrl' => true,
+    		'rules' => [ ],
+        // your rules go here
+    	],
     ],
 ];
