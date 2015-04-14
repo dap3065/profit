@@ -1477,3 +1477,1683 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1429047080.142
     'REQUEST_TIME' => 1429047080
 ]
+2015-04-14 16:38:23 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:23 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35455'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047503.54
+    'REQUEST_TIME' => 1429047503
+]
+2015-04-14 16:38:23 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:23 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35457'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047503.564
+    'REQUEST_TIME' => 1429047503
+]
+2015-04-14 16:38:23 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:23 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047503.575
+    'REQUEST_TIME' => 1429047503
+]
+2015-04-14 16:38:23 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:23 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35456'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047503.559
+    'REQUEST_TIME' => 1429047503
+]
+2015-04-14 16:38:32 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:32 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047512.164
+    'REQUEST_TIME' => 1429047512
+]
+2015-04-14 16:38:32 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:32 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047512.193
+    'REQUEST_TIME' => 1429047512
+]
+2015-04-14 16:38:32 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:32 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35463'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047512.201
+    'REQUEST_TIME' => 1429047512
+]
+2015-04-14 16:38:32 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:32 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'm7b1ahb2hb8blbhgtk4i3ll7i3'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'laxydif'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=m7b1ahb2hb8blbhgtk4i3ll7i3; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35461'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047512.181
+    'REQUEST_TIME' => 1429047512
+]
+2015-04-14 16:38:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35465'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047536.487
+    'REQUEST_TIME' => 1429047536
+]
+2015-04-14 16:38:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047536.505
+    'REQUEST_TIME' => 1429047536
+]
+2015-04-14 16:38:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047536.505
+    'REQUEST_TIME' => 1429047536
+]
+2015-04-14 16:38:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:38:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35466'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047536.496
+    'REQUEST_TIME' => 1429047536
+]
+2015-04-14 16:39:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35465'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047540.449
+    'REQUEST_TIME' => 1429047540
+]
+2015-04-14 16:39:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047540.465
+    'REQUEST_TIME' => 1429047540
+]
+2015-04-14 16:39:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047540.473
+    'REQUEST_TIME' => 1429047540
+]
+2015-04-14 16:39:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35466'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047540.456
+    'REQUEST_TIME' => 1429047540
+]
+2015-04-14 16:39:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35472'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047549.438
+    'REQUEST_TIME' => 1429047549
+]
+2015-04-14 16:39:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35471'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047549.428
+    'REQUEST_TIME' => 1429047549
+]
+2015-04-14 16:39:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047549.421
+    'REQUEST_TIME' => 1429047549
+]
+2015-04-14 16:39:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 16:39:09 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '3ctmvludqp4u7sn6iii6foe033'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=3ctmvludqp4u7sn6iii6foe033; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35473'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429047549.444
+    'REQUEST_TIME' => 1429047549
+]
+2015-04-14 17:03:53 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:03:53 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049033.229
+    'REQUEST_TIME' => 1429049033
+]
+2015-04-14 17:03:53 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:03:53 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35484'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049033.255
+    'REQUEST_TIME' => 1429049033
+]
+2015-04-14 17:03:53 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:03:53 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35482'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049033.245
+    'REQUEST_TIME' => 1429049033
+]
+2015-04-14 17:03:53 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:03:53 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35483'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049033.254
+    'REQUEST_TIME' => 1429049033
+]
+2015-04-14 17:04:14 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/mobile.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/mob...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:04:14 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35486'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/mobile.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/mobile.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/mobile.jpg'
+    'PHP_SELF' => '/index.php/site/images/mobile.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049054.262
+    'REQUEST_TIME' => 1429049054
+]
+2015-04-14 17:04:14 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/click.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/cli...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:04:14 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35487'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/click.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/click.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/click.jpg'
+    'PHP_SELF' => '/index.php/site/images/click.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049054.271
+    'REQUEST_TIME' => 1429049054
+]
+2015-04-14 17:04:14 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/develop.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/dev...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:04:14 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35489'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/develop.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/develop.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/develop.jpg'
+    'PHP_SELF' => '/index.php/site/images/develop.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049054.283
+    'REQUEST_TIME' => 1429049054
+]
+2015-04-14 17:04:14 [127.0.0.1][2][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/formats.jpg".' in /var/www/app/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/images/for...', Array)
+#1 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/app/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/app/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/app/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-04-14 17:04:14 [127.0.0.1][2][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'vreien3ak7c0h8cm2ffukhn5m1'
+    '_csrf' => '771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_\";}'
+    '_identity' => 'dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"4I9COtQf5I2nx71_OoDhI3aug45fab0K\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/contact'
+    '__id' => 2
+    '__captcha/site/captcha' => 'xadefaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=vreien3ak7c0h8cm2ffukhn5m1; _csrf=771b4a78e9ab3732c671d2d56385baf7e294eff0d7310861b3a76409126f006ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kk4qyIB9I7jlw7iR5zwqTbP3x_VOAUJ_%22%3B%7D; _identity=dd870cf1b95dd0130ae792e2c9e438c87d3199d43b979ffb4da48d3bf1c3a410a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%224I9COtQf5I2nx71_OoDhI3aug45fab0K%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35488'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/images/formats.jpg'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/images/formats.jpg'
+    'PATH_TRANSLATED' => 'redirect:/index.php/images/formats.jpg'
+    'PHP_SELF' => '/index.php/site/images/formats.jpg'
+    'REQUEST_TIME_FLOAT' => 1429049054.283
+    'REQUEST_TIME' => 1429049054
+]
