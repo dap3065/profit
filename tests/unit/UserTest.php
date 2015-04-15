@@ -72,4 +72,38 @@ class UserTest extends \Codeception\TestCase\Test
 	$user->delete(); 
     }
 
+    public function testFindByUsername()
+    {
+        $user = new User();
+
+        $user->email = 'dap3065@yahoo.com';
+	$user->username = 'dap3065';
+	$user->setPassword('dap3065Password');
+	$user->status = 10;
+        $user->save();
+	$user2 = User::findByUsername('dap3065');
+	$this->assertEquals($user->id, $user2->id);
+        $user->delete();
+    }
+
+    public function testDelete()
+    {
+        $user = new User();
+
+        $user->email = 'dap3065@yahoo.com';
+	$user->username = 'dap3065';
+	$user->setPassword('dap3065Password');
+	$user->status = 10;
+    }
+
+    public function testUpdate()
+    {
+        $user = new User();
+
+        $user->email = 'dap3065@yahoo.com';
+	$user->username = 'dap3065';
+	$user->setPassword('dap3065Password');
+	$user->status = 10;
+    }
+
 }
