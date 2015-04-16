@@ -3,12 +3,12 @@
 use yii\bootstrap\Carousel;
 use yii\helpers\Html;
 
-$this->title = 'WEBSITE SOLUTIONS NOW';
+$this->title = 'OG Profit K Official Page';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-      <h1>Website Solutions Now</h1>
+      <h1>OG Profit K</h1>
 <?php
 echo Carousel::widget([
     'items' => [
