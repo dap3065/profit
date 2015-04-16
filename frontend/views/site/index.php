@@ -5,6 +5,7 @@ use yii\helpers\Html;
 
 $this->title = 'OG Profit K Official Page';
 ?>
+<header class="intro">
 <div class="site-index">
 
     <div class="jumbotron">
@@ -76,3 +77,4 @@ echo Carousel::widget([
 
     </div>
 </div>
+</header>

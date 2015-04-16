@@ -3,6 +3,9 @@ body {
     height: 100%;
 }
 
+.intro {
+   background: url("/images/OGProfitKPromo.png") no-repeat scroll center bottom / contain  #000;
+}
 .wrap {
     min-height: 100%;
     height: auto;
@@ -12,6 +15,9 @@ body {
 
 .wrap > .container {
     padding: 70px 15px 20px;
+}
+
+.site-index {
 }
 
 .footer {
