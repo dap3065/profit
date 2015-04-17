@@ -10,6 +10,10 @@ $this->title = 'OG Profit K Official Page';
 
     <div class="jumbotron">
       <h1>OG Profit K</h1>
+<div style="height:100px;">
+<p></p>
+</div>
+<div>
 <?php
 echo Carousel::widget([
     'items' => [
@@ -41,18 +45,16 @@ echo Carousel::widget([
     ]
 ]);  
 ?>
-
-        <p class="lead">Professional development at your fingertips.</p>
 <p>
-<?php echo Html::a("Click To Get Started!", "/site/contact", array('class'=>'btn btn-lg btn-success'))?>
+<?php echo Html::a("Click To Contact NOW!", "/site/contact", array('class'=>'btn btn-lg btn-success'))?>
 </p>
-    </div>
+</div>
+  </div>
 
     <div class="body-content">
-
         <div class="row">
             <div class="col-lg-4">
-                <h2>Website Development</h2>
+                <h2>Music and Store</h2>
 
                 <p>A web presence is required for the longevity of your business.  Your website can be what catapults your business to the next level,
                    or the block that prevents your company from reaching their full potential. </p>
@@ -60,14 +62,14 @@ echo Carousel::widget([
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Learn More</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Bug Fixes</h2>
+                <h2>Videos</h2>
 
                 <p>Do you have an existing site that is old or having issues from the last developers?  Request us to fix the issues or update the site.  We can take a look at any web problem.</p>
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Request Help Now</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Enhancements</h2>
+                <h2>Pics</h2>
 
                 <p>Do you want to add a new feature to your existing site?  Email subscriptions?  Facebook login?  Paypal payment options?  Request us to add any enhancement to your existing site.</p>
 

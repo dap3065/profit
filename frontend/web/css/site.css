@@ -1,6 +1,12 @@
 html,
 body {
     height: 100%;
+    color: white;
+    background: black;
+}
+
+.row {
+  padding: 15px;
 }
 
 .intro {
@@ -95,6 +101,7 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+
 
 .carousel {
     height: 200px;
