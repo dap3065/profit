@@ -28,7 +28,8 @@
         "phpunit/phpunit": "*",
         "codeception/codeception": "*",
         "phpseclib/phpseclib": "*",
-        "symfony/http-kernel": "*"
+        "symfony/http-kernel": "*",
+        "yiisoft/yii2-imagine": "~2.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

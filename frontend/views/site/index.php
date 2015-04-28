@@ -23,25 +23,21 @@ echo Carousel::widget([
 //        ['content' => Html::img('images/mobile.jpg')],
         // the item contains both the image and the caption
         [
-            'content' => Html::img('/images/mobile.jpg'),
-            'caption' => '<h4>We Create Mobile Apps!</h4><p>Have your customers get updated immediately!</p>',
+            'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
+            'caption' => '<h2>Taking over the game...</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
-            'content' => Html::img('/images/click.jpg'),
-            'caption' => '<h4>We connect you to your customers!</h4><p>Your own domain name so you get recognized.</p>',
+            'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
+            'caption' => '<h2>Taking over the game...</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
-            'content' => Html::img('/images/formats.jpg'),
-            'caption' => '<h4>Get a design that fits you!</h4><p>We can customize your website to fit your needs.</p>',
+            'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
+            'caption' => '<h2>Taking over the game...</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
             'options' => ['data-interval'=>4000],
         ],
-        [
-            'content' => Html::img('/images/develop.jpg'),
-            'caption' => '<h4>We can handle any project.</h4><p>No project is too big or too small.  We can handle all aspects of development.</p>',
-            'options' => ['data-interval'=>4000],
-        ],
+
     ]
 ]);  
 ?>

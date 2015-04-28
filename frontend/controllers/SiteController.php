@@ -26,7 +26,7 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup', 'login', 'contact'],
+                'only' => ['logout', 'signup', 'login', 'contact', 'store'],
                 'rules' => [
                     [
                         'actions' => ['signup', 'login'],
@@ -34,7 +34,7 @@ class SiteController extends Controller
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['logout', 'contact'],
+                        'actions' => ['logout', 'contact', 'store'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -68,6 +68,21 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
+    }
+
+    public function actionVideo()
+    {
+        return $this->render('video');
+    }
+
+    public function actionPic()
+    {
+        return $this->render('pic');
+    }
+
+    public function actionStore()
+    {
+        return $this->render('store');
     }
 
     public function actionLogin()
