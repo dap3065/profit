@@ -28,8 +28,13 @@ echo Carousel::widget([
             'options' => ['data-interval'=>4000],
         ],
         [
-            'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
-            'caption' => '<h2>Taking over the game...</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'content' => '<iframe width="75%" height="315" src="https://www.youtube.com/embed/DJFm-3G87nc" frameborder="0" allowfullscreen></iframe>',
+            'caption' => '<h4>Heavens Gate</h4><p>By OG Profit K<br/> ' . Html::a("Find on Itunes", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'options' => ['data-interval'=>4000],
+        ],
+        [
+            'content' => '<iframe width="75%" height="170" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66392700&amp;color=f2ab00&amp;theme_color=000000&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>',
+            'caption' => '<p>Streaming Music</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
@@ -52,24 +57,29 @@ echo Carousel::widget([
             <div class="col-lg-4">
                 <h2>Music and Store</h2>
 
-                <p>A web presence is required for the longevity of your business.  Your website can be what catapults your business to the next level,
-                   or the block that prevents your company from reaching their full potential. </p>
+                <p>New music added all the time!  Get the latest gear here! Shirts, Hats, and More</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Learn More</a></p>
+                <p>
+			<?php echo Html::a("Get Music", "/site/store", array('class'=>'btn btn-default')); ?> 
+		</p>
             </div>
             <div class="col-lg-4">
                 <h2>Videos</h2>
 
-                <p>Do you have an existing site that is old or having issues from the last developers?  Request us to fix the issues or update the site.  We can take a look at any web problem.</p>
+                <p>Check the latest videos!  New videos added... See how we living!</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Request Help Now</a></p>
+                <p>
+			<?php echo Html::a("Watch Videos", "/site/video", array('class'=>'btn btn-default')); ?> 
+		</p>
             </div>
             <div class="col-lg-4">
                 <h2>Pics</h2>
 
-                <p>Do you want to add a new feature to your existing site?  Email subscriptions?  Facebook login?  Paypal payment options?  Request us to add any enhancement to your existing site.</p>
+                <p>Check the latests pics!  We doing big things!</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Request your enhancement</a></p>
+                <p>
+			<?php echo Html::a("View Pics", "/site/pic", array('class'=>'btn btn-default')); ?> 
+		</p>
             </div>
         </div>
 

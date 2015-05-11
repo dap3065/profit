@@ -3506,3 +3506,242 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1430259929.534
     'REQUEST_TIME' => 1430259929
 ]
+2015-05-11 10:59:08 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/site/video".' in /var/www/profit/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/profit/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/site/video', Array)
+#1 /var/www/profit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/profit/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/profit/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/profit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/profit/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-05-11 10:59:08 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'nqelcgrni90egidk0s2r39rpp6'
+    '_csrf' => 'dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/store'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=nqelcgrni90egidk0s2r39rpp6; _csrf=dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/profit/frontend/web/index.php'
+    'REMOTE_PORT' => '34248'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/site/video'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/site/video'
+    'PATH_TRANSLATED' => 'redirect:/index.php/site/video'
+    'PHP_SELF' => '/index.php/site/site/video'
+    'REQUEST_TIME_FLOAT' => 1431359948.108
+    'REQUEST_TIME' => 1431359948
+]
+2015-05-11 10:59:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/site/video".' in /var/www/profit/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/profit/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/site/video', Array)
+#1 /var/www/profit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/profit/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/profit/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /var/www/profit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/profit/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-05-11 10:59:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'nqelcgrni90egidk0s2r39rpp6'
+    '_csrf' => 'dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/store'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=nqelcgrni90egidk0s2r39rpp6; _csrf=dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/profit/frontend/web/index.php'
+    'REMOTE_PORT' => '34249'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/site/video'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/site/video'
+    'PATH_TRANSLATED' => 'redirect:/index.php/site/video'
+    'PHP_SELF' => '/index.php/site/site/video'
+    'REQUEST_TIME_FLOAT' => 1431359983.692
+    'REQUEST_TIME' => 1431359983
+]
+2015-05-11 11:00:50 [127.0.0.1][3][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /var/www/profit/frontend/views/site/store.php' in /var/www/profit/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /var/www/profit/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/profit...', Array, Object(frontend\controllers\SiteController))
+#1 /var/www/profit/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('store', Array, Object(frontend\controllers\SiteController))
+#2 /var/www/profit/frontend/controllers/SiteController.php(85): yii\base\Controller->render('store')
+#3 [internal function]: frontend\controllers\SiteController->actionStore()
+#4 /var/www/profit/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /var/www/profit/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/profit/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('store', Array)
+#7 /var/www/profit/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/store', Array)
+#8 /var/www/profit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/profit/frontend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2015-05-11 11:00:50 [127.0.0.1][3][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'i2329h32cn1n9mfjfsncsedo02'
+    '_csrf' => 'dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc\";}'
+    '_identity' => '6cfd1522b867f97ac78eba7f9d9a5df08af9d88346d5973a6ed494aab0ea7d38a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"TecwEC1UkGcNdGjrvHnp19cFPFpCJLJ3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/store'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/login'
+    'HTTP_COOKIE' => 'PHPSESSID=i2329h32cn1n9mfjfsncsedo02; _csrf=dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc%22%3B%7D; _identity=6cfd1522b867f97ac78eba7f9d9a5df08af9d88346d5973a6ed494aab0ea7d38a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22TecwEC1UkGcNdGjrvHnp19cFPFpCJLJ3%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/profit/frontend/web/index.php'
+    'REMOTE_PORT' => '34260'
+    'REDIRECT_URL' => '/site/store'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/store'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1431360050.295
+    'REQUEST_TIME' => 1431360050
+]
+2015-05-11 11:36:47 [127.0.0.1][3][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /var/www/profit/frontend/views/site/store.php' in /var/www/profit/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /var/www/profit/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/profit...', Array, Object(frontend\controllers\SiteController))
+#1 /var/www/profit/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('store', Array, Object(frontend\controllers\SiteController))
+#2 /var/www/profit/frontend/controllers/SiteController.php(85): yii\base\Controller->render('store')
+#3 [internal function]: frontend\controllers\SiteController->actionStore()
+#4 /var/www/profit/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /var/www/profit/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/profit/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('store', Array)
+#7 /var/www/profit/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/store', Array)
+#8 /var/www/profit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/profit/frontend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2015-05-11 11:36:47 [127.0.0.1][3][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'i2329h32cn1n9mfjfsncsedo02'
+    '_csrf' => 'dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc\";}'
+    '_identity' => '6cfd1522b867f97ac78eba7f9d9a5df08af9d88346d5973a6ed494aab0ea7d38a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[3,\"TecwEC1UkGcNdGjrvHnp19cFPFpCJLJ3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/store'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/index.php/site/index'
+    'HTTP_COOKIE' => 'PHPSESSID=i2329h32cn1n9mfjfsncsedo02; _csrf=dfeab2998c167f28c70edf30b20de768820edd32d378ce8ceca1676282a4b52ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jhQHe8_VtK8zfIxpvJgYQCtx4WgnslZc%22%3B%7D; _identity=6cfd1522b867f97ac78eba7f9d9a5df08af9d88346d5973a6ed494aab0ea7d38a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B3%2C%22TecwEC1UkGcNdGjrvHnp19cFPFpCJLJ3%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/profit/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/profit/frontend/web/index.php'
+    'REMOTE_PORT' => '34274'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/index.php/site/store'
+    'SCRIPT_NAME' => '/index.php'
+    'PATH_INFO' => '/site/store'
+    'PATH_TRANSLATED' => 'redirect:/index.php/store'
+    'PHP_SELF' => '/index.php/site/store'
+    'REQUEST_TIME_FLOAT' => 1431362207.541
+    'REQUEST_TIME' => 1431362207
+]
