@@ -5,15 +5,12 @@ use yii\helpers\Html;
 
 $this->title = 'OG Profit K Official Page';
 ?>
-<header class="intro">
-<div class="site-index">
+<div class="container intro" style="width:100%">
+	<div class="row">
+    		<div class="jumbotron">
+      			<h1>OG Profit K</h1>
+			<div class="site-index">
 
-    <div class="jumbotron">
-      <h1>OG Profit K</h1>
-<div style="height:100px;">
-<p></p>
-</div>
-<div>
 <?php
 echo Carousel::widget([
     'items' => [
@@ -33,7 +30,8 @@ echo Carousel::widget([
             'options' => ['data-interval'=>4000],
         ],
         [
-            'content' => '<iframe width="75%" height="170" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66392700&amp;color=f2ab00&amp;theme_color=000000&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>',
+            'content' => '
+',
             'caption' => '<p>Streaming Music</p>',
             'options' => ['data-interval'=>4000],
         ],
@@ -46,14 +44,16 @@ echo Carousel::widget([
     ]
 ]);  
 ?>
-<p>
-<?php echo Html::a("Click To Contact NOW!", "/site/contact", array('class'=>'btn btn-lg btn-success'))?>
-</p>
-</div>
-  </div>
-
-    <div class="body-content">
-        <div class="row">
+			</div>
+     		</div>
+	</div>
+	<div class="row" style="margin-left:auto; margin-right:auto;text-align:center;">
+			<p>
+				<?php echo Html::a("Click To Contact NOW!", "/site/contact", array('class'=>'btn btn-lg btn-success'))?>
+			</p>
+		<iframe width="75%" height="170" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66392700&amp;color=f2ab00&amp;theme_color=000000&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
+	</div>
+	<div class="row">
             <div class="col-lg-4">
                 <h2>Music and Store</h2>
 
@@ -81,8 +81,6 @@ echo Carousel::widget([
 			<?php echo Html::a("View Pics", "/site/pic", array('class'=>'btn btn-default')); ?> 
 		</p>
             </div>
-        </div>
-
-    </div>
+	</div>
 </div>
-</header>
+

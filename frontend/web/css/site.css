@@ -4,14 +4,18 @@ body {
     color: white;
     background: black;
 }
+.intro { 
+  background: url("/images/OGProfitKPromo.png") no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .row {
   padding: 15px;
 }
 
-.intro {
-   background: url("/images/OGProfitKPromo.png") no-repeat scroll center bottom / contain  #000;
-}
 .wrap {
     min-height: 100%;
     height: auto;
@@ -103,6 +107,15 @@ a.desc:after {
 }
 
 
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+
 .carousel {
-    height: 200px;
+  height:300px;
 }
