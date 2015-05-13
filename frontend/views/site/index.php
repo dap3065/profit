@@ -2,6 +2,7 @@
 /* @var $this yii\web\View */
 use yii\bootstrap\Carousel;
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 $this->title = 'OG Profit K Official Page';
 ?>
@@ -49,7 +50,7 @@ echo Carousel::widget([
 	</div>
 	<div class="row" style="margin-left:auto; margin-right:auto;text-align:center;">
 			<p>
-				<?php echo Html::a("Click To Contact NOW!", "/site/contact", array('class'=>'btn btn-lg btn-success'))?>
+				<?php echo Html::a("Click To Contact NOW!", Url::to(['site/contact']), array('class'=>'btn btn-lg btn-success'))?>
 			</p>
 		<iframe width="75%" height="170" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66392700&amp;color=f2ab00&amp;theme_color=000000&amp;auto_play=false&amp;hide_related=true&amp;show_artwork=false"></iframe>
 	</div>
@@ -60,7 +61,7 @@ echo Carousel::widget([
                 <p>New music added all the time!  Get the latest gear here! Shirts, Hats, and More</p>
 
                 <p>
-			<?php echo Html::a("Get Music", "/site/store", array('class'=>'btn btn-default')); ?> 
+			<?php echo Html::a("Get Music", Url::to(['site/store']), array('class'=>'btn btn-default')); ?> 
 		</p>
             </div>
             <div class="col-lg-4">
@@ -69,7 +70,7 @@ echo Carousel::widget([
                 <p>Check the latest videos!  New videos added... See how we living!</p>
 
                 <p>
-			<?php echo Html::a("Watch Videos", "/site/video", array('class'=>'btn btn-default')); ?> 
+			<?php echo Html::a("Watch Videos", Url::to(['site/video']), array('class'=>'btn btn-default')); ?> 
 		</p>
             </div>
             <div class="col-lg-4">
@@ -78,7 +79,7 @@ echo Carousel::widget([
                 <p>Check the latests pics!  We doing big things!</p>
 
                 <p>
-			<?php echo Html::a("View Pics", "/site/pic", array('class'=>'btn btn-default')); ?> 
+			<?php echo Html::a("View Pics", Url::to(['site/pic']), array('class'=>'btn btn-default')); ?> 
 		</p>
             </div>
 	</div>
