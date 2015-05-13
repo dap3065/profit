@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 $this->title = 'OG Profit K Official Page';
 ?>
-<div class="container intro" style="width:100%">
+<div class="intro" >
 	<div class="row">
     		<div class="jumbotron">
       			<h1>OG Profit K</h1>
