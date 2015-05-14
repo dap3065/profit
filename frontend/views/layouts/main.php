@@ -68,8 +68,8 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-        <p class="pull-left">&copy; Website Solutions Now <?= date('Y') ?></p>
-        <p class="pull-right">By David Paul</p>
+        <p class="pull-left">&copy; OG PROFIT K OFFICIAL WEBSITE <?= date('Y') ?></p>
+        <p class="pull-right">By David</p>
         </div>
     </footer>
 
