@@ -22,11 +22,11 @@ echo Carousel::widget([
         // the item contains both the image and the caption
         [
             'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
-            'caption' => '<h2>Taking over the game...</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<div class="container"><h2>Taking over the game</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p></div>',
             'options' => ['data-interval'=>4000],
         ],
         [
-            'content' => '<iframe width="75%" height="315" src="https://www.youtube.com/embed/DJFm-3G87nc" frameborder="0" allowfullscreen></iframe>',
+            'content' => '<iframe width="415" height="315" src="https://www.youtube.com/embed/DJFm-3G87nc" frameborder="0" allowfullscreen></iframe>',
             'caption' => '<h4>Heavens Gate</h4><p>By OG Profit K<br/> ' . Html::a("Find on Itunes", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
             'options' => ['data-interval'=>4000],
         ],
@@ -38,7 +38,7 @@ echo Carousel::widget([
         ],
         [
             'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
-            'caption' => '<h2>Taking over the game...</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<div class="container"><h2>Taking over the game</h2><p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p></div>',
             'options' => ['data-interval'=>4000],
         ],
 

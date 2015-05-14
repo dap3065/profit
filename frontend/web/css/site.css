@@ -119,3 +119,11 @@ a.desc:after {
 .carousel {
   height:300px;
 }
+
+@media all and (max-width: 500px)
+{
+    h2
+    {
+        font-size:20px;
+    }
+}
