@@ -22,32 +22,32 @@ echo Carousel::widget([
         // the item contains both the image and the caption
         [
             'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
-            'caption' => '<p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4", array('class'=>'btn btn-sm btn-danger')) . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
             'content' => '<iframe width="460" height="315" src="https://www.youtube.com/embed/dTOYL1CzVgY" frameborder="0" allowfullscreen></iframe>',
-            'caption' => '<h4>Runnin</h4><p>By OG Profit K ft. GC Cecret<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<h4>Runnin</h4><p>By OG Profit K ft. GC Cecret<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4", array('class'=>'btn btn-sm btn-danger')) . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
             'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
-            'caption' => '<p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4", array('class'=>'btn btn-sm btn-danger')) . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
             'content' => '<iframe width="460" height="315" src="https://www.youtube.com/embed/HEU2WtbG-6M" frameborder="0" allowfullscreen></iframe>',
-            'caption' => '<h4>Bleeding</h4><p>By OG Profit K<br/> ' . Html::a("Download Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<h4>Bleeding</h4><p>By OG Profit K<br/> ' . Html::a("Download Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4", array('class'=>'btn btn-sm btn-danger')) . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
             'content' => Html::img('/images/Bless_edit.jpg', ['width'=>'125', 'height'=>'120']),
-            'caption' => '<p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<p>Getting paid!<br/> ' . Html::a("Get New Music Now", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4", array('class'=>'btn btn-sm btn-danger')) . '</p>',
             'options' => ['data-interval'=>4000],
         ],
         [
             'content' => '<iframe width="460" height="315" src="https://www.youtube.com/embed/DJFm-3G87nc" frameborder="0" allowfullscreen></iframe>',
-            'caption' => '<h4>Heavens Gate</h4><p>By OG Profit K<br/> ' . Html::a("Find on Itunes", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4") . '</p>',
+            'caption' => '<h4>Heavens Gate</h4><p>By OG Profit K<br/> ' . Html::a("Find on Itunes", "https://itunes.apple.com/us/artist/og-profit-k/id960021450?ign-mpt=uo%3D4", array('class'=>'btn btn-sm btn-danger')) . '</p>',
             'options' => ['data-interval'=>4000],
         ],
 
