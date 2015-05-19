@@ -51,11 +51,22 @@ echo Carousel::widget([
             'options' => ['data-interval'=>4000],
         ],
 
-    ]
+    ],
+    'id' => 'homeCarousel'
 ]);  
 ?>
 			</div>
      		</div>
+		<div style="margin:auto; text-align:center;">
+<div id="carouselButtons">
+    <button id="playButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-play"></span>
+     </button>
+    <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+        <span class="glyphicon glyphicon-pause"></span>
+    </button>
+</div>
+		</div>
 	</div>
 	<div class="row" style="margin-left:auto; margin-right:auto;text-align:center;">
 			<p>
@@ -93,4 +104,16 @@ echo Carousel::widget([
             </div>
 	</div>
 </div>
+<?php
+
+$this->registerJs(
+"$( document ).ready(function() {
+	$('#playButton').click(function () {
+    		$('#homeCarousel').carousel('cycle');
+	});
+	$('#pauseButton').click(function () {
+    		$('#homeCarousel').carousel('pause');
+	});
+});");
+?>
 
